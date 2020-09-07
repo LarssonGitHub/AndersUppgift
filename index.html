@@ -7,6 +7,15 @@
     <title>Om mig</title>
 
 
+    <style>
+        table,
+        th,
+        td {
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -77,57 +86,62 @@
         din <u>webbläsare</u> och <u>webbservern</u> som förvarar informationen du vill åt, t.ex. <a
             href="https://www.youtube.com/">youtube.com</a> </p>
 
-            <p>På tall om webläsare, nedan finner du en tabell med 3 rekommenderade klienter från mig, med tillhörande information.</p>
+    <p>På tall om webläsare, nedan finner du en tabell med 3 rekommenderade klienter från mig, med tillhörande
+        information.</p>
 
-<table>
-    <thead>
-        <tr>
-        <th>Info:</th>
-        <th>Google Chrome </th>
-        <th>Firefox</th>
-        <th>Tor project</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-         <td>Själva loggan för respektive webbläsare</td>   
-        <td><img src="bilder/chrome.png" width="50" height="50" alt="Google chrome icon"></td>
-        <td><img src="bilder/firefox.png" width="50" height="50" alt="Firefox icon"></td>
-        <td><img src="bilder/tor.png" width="50" height="50" alt="Tor icon"></td>
-        </tr>
-        <tr>
-            <td>Länkar för att ladda ner respektive webbläsare</td>
-            <td><a href="https://www.google.com/intl/sv/chrome/">Chrome</a></td>
-            <td><a href="https://www.mozilla.org/sv-SE/firefox/new/">Firefox</a></td>
-            <td><a href="https://www.torproject.org/download/">Tor</a></td>
-        </tr>
-        <tr>
-            <td>Lite om respektive webbläsare</td>
-            <td>Chrome är en favorit bland många anvädare för sitt vänliga gränssnitt</td>
-            <td>Firefox är något mer avancerat än Chrome, men fult lika vänligt gränssnitt</td>
-            <td>Tor är en kontroversiel "modiferar firefox webbläsare" och en av de segare klienterna, men det man förlorar i tid, vinner man i säkerhet!</td>
-        </tr>
-    </tbody>
+    <table>
+        <thead>
+            <tr>
+                <th>Info:</th>
+                <th>Google Chrome </th>
+                <th>Firefox</th>
+                <th>Tor project</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Själva loggan för respektive webbläsare</td>
+                <td><img src="bilder/chrome.png" width="50" height="50" alt="Google chrome icon"></td>
+                <td><img src="bilder/firefox.png" width="50" height="50" alt="Firefox icon"></td>
+                <td><img src="bilder/tor.png" width="50" height="50" alt="Tor icon"></td>
+            </tr>
+            <tr>
+                <td>Länkar för att ladda ner respektive webbläsare</td>
+                <td><a href="https://www.google.com/intl/sv/chrome/">Chrome</a></td>
+                <td><a href="https://www.mozilla.org/sv-SE/firefox/new/">Firefox</a></td>
+                <td><a href="https://www.torproject.org/download/">Tor</a></td>
+            </tr>
+            <tr>
+                <td>Lite om respektive webbläsare</td>
+                <td>Chrome är en favorit bland många anvädare för sitt vänliga gränssnitt</td>
+                <td>Firefox är något mer avancerat än Chrome, men fult lika vänligt gränssnitt</td>
+                <td>Tor är en kontroversiel "modifierad firefox webbläsare" och en av de segare klienterna, men det man
+                    förlorar i tid, vinner man i säkerhet!</td>
+            </tr>
+        </tbody>
         <tfoot>
-        <tr>
-            <td colspan="4">Länkarna som presenteras i denna tabell är de officiela platserna där man kan ladda ner respektive webbläsare, kom dock ihåg att <b>alltid</b> dubbelkolla URL:n innan du laddar ner din valda webbläsare.</td>
-        </tr>
+            <tr>
+                <td colspan="4">Länkarna som presenteras i denna tabell är de officiela platserna där man kan ladda ner
+                    respektive webbläsare, kom dock ihåg att <b>alltid</b> dubbelkolla URL:n innan du laddar ner din
+                    valda webbläsare.</td>
+            </tr>
         </tfoot>
-  
-</table>
-<hr>
-<h2>Förmulär</h2>
 
-<form action=".html" method="POST">
-<ul>
-<li>Är du nöjd med min hemsida?</li>
-<li><input type="radio" name="asikt" id="ja" value="ja" checked><label for="ja">Ja</label></li>
-<li><input type="radio" name="asikt" id="nej" value="nej"><label for="nej">Nej</label></li>
- <li><label for="kommentar">Skriv kort om varför</label></li>
- <li><textarea name="kommentar" id="kommentar" cols="40" rows="10" placeholder="Varför är min hemsida den bästa?"></textarea> </li>
- <li><input type="submit" value="Skicka in"><input type="reset" value="Börja om"></li>
-</ul>
-</form>
+    </table>
+    <hr>
+    <h2>Förmulär</h2>
+
+    <form action=".html" method="POST">
+        <ul>
+            <li>Är du nöjd med min hemsida?</li>
+            <li><input type="radio" name="asikt" id="ja" value="ja" checked><label for="ja">Ja</label></li>
+            <li><input type="radio" name="asikt" id="nej" value="nej"><label for="nej">Nej</label></li>
+            <li><label for="kommentar">Skriv kort om varför</label></li>
+            <li><textarea name="kommentar" id="kommentar" cols="40" rows="10"
+                    placeholder="Varför är min hemsida den bästa?"></textarea> </li>
+            <li><input type="submit" value="Skicka in"><input type="reset" value="Börja om"></li>
+        </ul>
+    </form>
 
 
 </body>
